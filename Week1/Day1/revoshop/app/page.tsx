@@ -6,9 +6,9 @@ import { ProductCards } from "./components/Product";
 export default function Home() {
   return (
     <main className="p-8">
-      <Header/>
-      <ProductCards/>
-      <Footer/>
+      <Header />
+      <ProductCards />
+      <Footer />
     </main>
   );
 }
