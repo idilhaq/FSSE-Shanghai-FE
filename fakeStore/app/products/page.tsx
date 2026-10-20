@@ -67,7 +67,7 @@ export default async function ProductsPage({
                     // isn't lazy-loaded; the rest stay lazy for bandwidth savings.
                     const isAboveFold = index < 4;
                     return (
-                        <div key={product.id} style={{ border: '1px solid #e2e8f0', borderRadius: '8px', padding: '16px', background: '#fff', color: '#1a202c', display: 'flex', flexDirection: 'column', justifyContent: 'space-between', boxShadow: '0 1px 3px rgba(0,0,0,0.06)' }}>
+                        <div data-testid="product-card" key={product.id} style={{ border: '1px solid #e2e8f0', borderRadius: '8px', padding: '16px', background: '#fff', color: '#1a202c', display: 'flex', flexDirection: 'column', justifyContent: 'space-between', boxShadow: '0 1px 3px rgba(0,0,0,0.06)' }}>
                             <div>
                                 <div style={{ position: 'relative', background: '#fff', borderRadius: '6px', padding: '8px', marginBottom: '12px', height: '180px' }}>
                                     <Image
